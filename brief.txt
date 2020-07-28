@@ -1,0 +1,13 @@
+a) Create classes for different components e.g. record deck, CD player etc.
+DONE
+
+b) Each class will have instance variables particular to that component e.g. a record deck may have play speeds, a CD player may have a number of CDs it can play at a time (think of the old-fashioned multi-changers).
+DONE
+
+c) each component should have its own make and model
+DONE
+
+d) As the stereo is made up of separate components, and methods to operate them e.g. a CD player might have a play method.
+
+If different components have the same methods then this might suggest that they implement the same interface
+
