@@ -4,4 +4,7 @@ public abstract class Component implements IConnect{
         this.make = make;
         this.model = model;
     }
+
+    public String make() { return make; }
+    public String model() { return model; }
 }

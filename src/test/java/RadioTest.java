@@ -8,12 +8,13 @@ public class RadioTest {
 
     @Before
     public void before() {
-        r = new Radio("Radio 1");
+        r = new Radio("DAB", "X3", "Radio 1");
     }
 
     @Test
     public void testTune() {
-        assertEquals("Radio 1", r.getTune());
+        assertEquals("Radio 1", r.tune());
     }
+
 
 }
